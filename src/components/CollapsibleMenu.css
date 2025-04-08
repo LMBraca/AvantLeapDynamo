@@ -1,0 +1,42 @@
+.menu-item {
+  text-align: left;
+  margin: 4px 0;
+  width: 100%;
+}
+
+.menu-header {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.menu-header:hover {
+  background-color: #f0f0f0;
+}
+
+.menu-icon {
+  margin-right: 8px;
+  min-width: 16px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.menu-name {
+  flex: 1;
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu-children {
+  margin-left: 24px;
+  padding-left: 8px;
+  border-left: 1px solid #e0e0e0;
+  width: calc(100% - 32px);
+}

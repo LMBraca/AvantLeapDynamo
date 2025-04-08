@@ -1,0 +1,61 @@
+.data-viewer {
+  padding: 20px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.node-title {
+  margin-bottom: 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 24px;
+  height: calc(100% - 80px);
+}
+
+.data-grid.full-width {
+  grid-template-columns: 1fr;
+}
+
+.left-column,
+.right-column {
+  height: 100%;
+}
+
+.data-section {
+  background: #f8f8f8;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.data-section h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  color: #333;
+  text-align: left;
+}
+
+.data-section p {
+  margin: 0;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  text-align: left;
+}
+
+.input-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-item {
+  padding: 4px 0;
+  line-height: 1.4;
+}
