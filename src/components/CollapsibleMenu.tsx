@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./CollapsibleMenu.css";
+import "../styles/CollapsibleMenu.css";
 
 interface MenuItem {
   node: string;

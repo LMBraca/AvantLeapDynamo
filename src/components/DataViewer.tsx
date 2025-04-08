@@ -1,5 +1,5 @@
 import React from "react";
-import "./DataViewer.css";
+import "../styles/DataViewer.css";
 
 interface DataViewerProps {
   data: {
